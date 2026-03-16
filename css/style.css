@@ -65,3 +65,11 @@ img {
 .container-icon-search img {
     width: 20px;
 }
+
+.nav-right .btn-access {
+    padding-top: 5px;
+}
+
+.nav-right .btn-search {
+    padding-top: 3px;
+}
