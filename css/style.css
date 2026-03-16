@@ -79,3 +79,10 @@ img {
     SECTION TRENDING GAME
     =========================
 */
+.container-banner-returnal img {
+    width: 100px;
+}
+
+.container-description-game {
+    bottom: 0;
+}
