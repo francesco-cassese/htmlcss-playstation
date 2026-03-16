@@ -18,6 +18,10 @@
 
 :root {}
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 img {
     display: block;
 }
@@ -104,4 +108,17 @@ img {
 
 .container-description-game {
     bottom: 0;
+}
+
+/* Gallery */
+
+/*
+    =============================
+    SEZIONE CONSOLE PS5
+    =============================
+*/
+
+.section-console-ps5 span {
+    font-size: 14px;
+    font-weight: 600;
 }
