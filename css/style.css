@@ -61,3 +61,7 @@ img {
     width: 40px;
     aspect-ratio: 1;
 }
+
+.container-icon-search img {
+    width: 20px;
+}
