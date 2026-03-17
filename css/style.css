@@ -20,6 +20,8 @@
     --bg-ps-plus-section: #bebcbb;
     --bg-ps-now-section: #161c3b;
     --bg-footer: #00439c;
+    --dot: "•";
+    --color-dot: #0070d1;
 }
 
 body {
@@ -44,6 +46,14 @@ img {
 
 .fs-title-secondary {
     font-size: 30px;
+}
+
+.dot-blue::before {
+    content: var(--dot);
+    color: var(--color-dot);
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 8px;
 }
 
 /*
@@ -79,6 +89,12 @@ img {
 
 .navbar-nav .dropdown-toggle[aria-expanded="true"]::after {
     transform: rotate(180deg);
+}
+
+.navbar .dropdown-menu {
+    margin-top: 0;
+    border: none;
+    border-radius: 0;
 }
 
 .container-img-menu img {
