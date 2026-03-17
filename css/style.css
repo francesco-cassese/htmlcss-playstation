@@ -18,6 +18,7 @@
 
 :root {
     --bg-ps-plus-section: #bebcbb;
+    --bg-ps-now-section: #161c3b;
 }
 
 body {
@@ -190,7 +191,12 @@ img {
     background-color: var(--bg-ps-plus-section);
 }
 
-.logo-ps-plus {
+.ps-now {
+    background-color: var(--bg-ps-now-section);
+}
+
+.logo-ps-plus,
+.logo-ps-now {
     width: 300px;
     padding: 35px 0;
 }
