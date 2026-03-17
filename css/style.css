@@ -224,6 +224,7 @@ footer {
     width: 100px;
 }
 
-.txt-copyright {
+.txt-copyright,
+.txt-country-language {
     font-size: 10px;
 }
