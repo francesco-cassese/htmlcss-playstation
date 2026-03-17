@@ -140,9 +140,13 @@ img {
     =============================
 */
 
-.section-console-ps5 span {
+.txt-header-ps5 {
     font-size: 14px;
     font-weight: 600;
+}
+
+.txt-button-navtabs {
+    font-size: 16px;
 }
 
 /* Galleria accessori */
