@@ -19,6 +19,7 @@
 :root {
     --bg-ps-plus-section: #bebcbb;
     --bg-ps-now-section: #161c3b;
+    --bg-footer: #00439c;
 }
 
 body {
@@ -199,4 +200,19 @@ img {
 .logo-ps-now {
     width: 300px;
     padding: 35px 0;
+}
+
+/*
+    =======================================
+    FOOTER
+    =======================================
+*/
+
+footer {
+    background-color: var(--bg-footer);
+}
+
+.footer-world {
+    width: 15px;
+    margin-right: 5px;
 }
