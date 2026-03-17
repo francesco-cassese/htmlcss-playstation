@@ -122,3 +122,24 @@ img {
     font-size: 14px;
     font-weight: 600;
 }
+
+/* Galleria accessori */
+
+.nav-pills .nav-link {
+    background: none !important;
+    border: none !important;
+    opacity: 0.5;
+    transition: border-color 0.3s ease;
+}
+
+.naw-pills img {
+    width: 200px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    border-bottom: 3px solid blue !important;
+    opacity: 1;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transform: translatey(-3px);
+}
