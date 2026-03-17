@@ -102,12 +102,8 @@ img {
 
 }
 
+.container-img-it-takes-two-games img,
 .container-img-trending-games img {
-    object-position: 100% 80%;
-    height: 130%;
-}
-
-.container-img-it-takes-two-games img {
     height: 100%;
     object-position: center;
 }
