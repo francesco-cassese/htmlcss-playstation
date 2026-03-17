@@ -154,3 +154,22 @@ img {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     transform: translatey(-3px);
 }
+
+/*
+    ================================
+    SEZIONE PS4
+    ================================
+*/
+
+.icon-title-section-ps4 {
+    transform: translate(-5px, -8px);
+    font-size: 20px;
+}
+
+.txt-header-card-ps4 {
+    line-height: 1.1;
+}
+
+.txt-description-card-ps4 {
+    line-height: 1.2;
+}
