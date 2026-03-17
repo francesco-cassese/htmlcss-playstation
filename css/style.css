@@ -142,7 +142,7 @@ img {
 .container-img-it-takes-two-games img,
 .container-img-trending-games img {
     height: 100%;
-    object-position: center;
+    object-position: top;
 }
 
 .container-banner-returnal img {
