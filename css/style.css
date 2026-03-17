@@ -154,6 +154,16 @@ img {
     bottom: 0;
 }
 
+.btn-trending-game {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-trending-game:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
 /* Gallery */
 
 /*
@@ -192,6 +202,30 @@ img {
     transform: translatey(-3px);
 }
 
+.btn-ps5-accessories,
+.btn-ps-plus,
+.btn-ps-now {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    ;
+}
+
+.btn-ps5-accessories:hover,
+.btn-ps-plus:hover,
+.btn-ps-now:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 38px rgba(0, 112, 209, 0.2), 0 15px 12px rgba(0, 0, 0, 0.12);
+}
+
+.btn-new-releases {
+    transition: transform 0.3s ease;
+}
+
+.btn-new-releases:hover {
+    transform: scale(1.05);
+    border: 2px solid #fff;
+}
+
 /*
     ================================
     SEZIONE PS4
@@ -209,6 +243,16 @@ img {
 
 .txt-description-card-ps4 {
     font-size: 20px !important;
+}
+
+.card-ps4-accessories {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card-ps4-accessories:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 /*
@@ -233,6 +277,54 @@ img {
 
 .container-img-shortcut img {
     object-fit: contain;
+}
+
+/*
+    =====================================
+    SEZIONE PROMOZIONI
+    =====================================
+*/
+
+.shortcuts-card {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.shortcuts-card:hover {
+    transform: scale(1.05);
+}
+
+/*
+    ======================================
+    SEZIONE SOCIAL
+    ======================================
+*/
+
+.social-links {
+    display: inline-block;
+    transition: all 0.3 ease;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.social-links:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px var(--icon-color);
+}
+
+.link-twitter:hover {
+    --icon-color: rgba(29, 161, 242, 0.45);
+}
+
+.link-facebook {
+    --icon-color: rgba(24, 119, 242, 0.45);
+}
+
+.link-instagram {
+    --icon-color: rgba(225, 48, 108, 0.45);
+}
+
+.link-youtube {
+    --icon-color: rgba(255, 0, 0, 0.45);
 }
 
 /*
