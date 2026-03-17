@@ -32,6 +32,14 @@ img {
     border-radius: 20px;
 }
 
+.l-height-1 {
+    line-height: 1.2;
+}
+
+.fs-title-primary {
+    font-size: 35px;
+}
+
 /*
     ===================================
     HEADER
@@ -98,10 +106,14 @@ img {
 }
 
 .container-img-trending-games img,
-.container-img-it-takes-two-games img {
+.container-img-it-takes-two-games img,
+.container-img-shortcut img {
     width: 100%;
     object-fit: cover;
+}
 
+.container-img-shortcut img {
+    min-height: 450px;
 }
 
 .container-img-it-takes-two-games img,
@@ -168,10 +180,6 @@ img {
     line-height: 1.1;
 }
 
-.txt-description-card-ps4 {
-    line-height: 1.2;
-}
-
 /*
     ===================================
     SEZIONE PS PLUS
@@ -185,8 +193,4 @@ img {
 .logo-ps-plus {
     width: 300px;
     padding: 35px 0;
-}
-
-.txt-header-ps-plus {
-    line-height: 1.2;
 }
