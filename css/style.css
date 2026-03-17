@@ -84,21 +84,32 @@ img {
 
 /*
     =========================
-    SECTION TRENDING GAME
+    SEZIONE TRENDING GAME
     =========================
 */
 
 /* Header */
-.container-img-trending-games {
+.container-img-trending-games,
+.container-img-it-takes-two-games {
     height: 500px;
     overflow: hidden;
 }
 
-.container-img-trending-games img {
+.container-img-trending-games img,
+.container-img-it-takes-two-games img {
     width: 100%;
-    height: 130%;
     object-fit: cover;
+
+}
+
+.container-img-trending-games img {
     object-position: 100% 80%;
+    height: 130%;
+}
+
+.container-img-it-takes-two-games img {
+    height: 100%;
+    object-position: center;
 }
 
 .container-banner-returnal img {
