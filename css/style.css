@@ -16,7 +16,9 @@
     ===================================
 */
 
-:root {}
+:root {
+    --bg-ps-plus-section: #bebcbb;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -167,5 +169,24 @@ img {
 }
 
 .txt-description-card-ps4 {
+    line-height: 1.2;
+}
+
+/*
+    ===================================
+    SEZIONE PS PLUS
+    ===================================
+*/
+
+.header-ps-plus {
+    background-color: var(--bg-ps-plus-section);
+}
+
+.logo-ps-plus {
+    width: 300px;
+    padding: 35px 0;
+}
+
+.txt-header-ps-plus {
     line-height: 1.2;
 }
