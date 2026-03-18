@@ -125,6 +125,16 @@ img {
     padding-top: 3px;
 }
 
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler:active {
+
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 0.1s ease;
+}
+
 /*
     =========================
     SEZIONE TRENDING GAME
