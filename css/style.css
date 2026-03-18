@@ -178,6 +178,11 @@ img {
     width: 250px;
 }
 
+.description-it-takes-two p,
+.description-it-takes-two h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7)
+}
+
 
 /*
     =============================
