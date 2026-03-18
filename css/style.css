@@ -42,11 +42,16 @@ img {
 }
 
 .fs-title-primary {
-    font-size: 35px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.fs-description {
+    font-size: 0.875rem;
 }
 
 .fs-title-secondary {
-    font-size: 30px;
+    font-size: 1.75rem;
 }
 
 .dot-blue::before {
@@ -173,12 +178,17 @@ img {
 */
 
 .txt-header-ps5 {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 0.75rem;
+    font-weight: bold;
 }
 
 .txt-button-navtabs {
-    font-size: 16px;
+    font-size: 0.875rem;
+}
+
+.btn {
+    font-size: 0.938rem;
+    font-weight: bold;
 }
 
 /* Galleria accessori */
@@ -241,10 +251,6 @@ img {
     line-height: 1.1;
 }
 
-.txt-description-card-ps4 {
-    font-size: 20px !important;
-}
-
 .card-ps4-accessories {
     cursor: pointer;
     transition: all 0.3s ease;
@@ -302,7 +308,7 @@ img {
 
 .social-links {
     display: inline-block;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 

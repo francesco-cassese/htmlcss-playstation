@@ -1,0 +1,17 @@
+@media screen and (min-width:992px) {
+    .txt-header-ps5 {
+        font-size: 0.875rem;
+    }
+
+    .fs-title-primary {
+        font-size: 3.5rem;
+    }
+
+    .fs-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+}
