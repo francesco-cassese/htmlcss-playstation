@@ -132,22 +132,12 @@ img {
 */
 
 /* Header */
-.container-img-trending-games,
-.container-img-it-takes-two-games {
-    height: 500px;
-    overflow: hidden;
-}
 
-.container-img-trending-games img,
-.container-img-it-takes-two-games img {
-    width: 100%;
-    object-fit: cover;
-}
-
-.container-img-it-takes-two-games img,
-.container-img-trending-games img {
-    height: 100%;
-    object-position: top;
+.wrapper-returnal {
+    background-image: url("../img/jumbo-bg.png");
+    min-height: 500px;
+    background-position: top;
+    background-size: cover;
 }
 
 .container-banner-returnal img {
@@ -157,6 +147,7 @@ img {
 
 .container-description-game {
     bottom: 0;
+    left: 0;
 }
 
 .btn-trending-game {
