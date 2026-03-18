@@ -160,7 +160,24 @@ img {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Gallery */
+/*
+    =============================
+    IT TAKES TWO
+    =============================
+*/
+
+.wrapper-it-takes-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-banner-it-takes-two img {
+    width: 250px;
+}
+
 
 /*
     =============================
